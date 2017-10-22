@@ -1,10 +1,27 @@
+GIT
+===========================
+git status
+git add --all
+git commit -m 'init the vuejs application using vue-cli'
+git push
+
+FOR CLIENT
+============================
 npm install -g vue-cli
 vue init webpack client
 cd client
 npm install
 npm run dev
 cd ..
-git status
-git add --all
-git commit -m 'init the vuejs application using vue-cli'
-git push
+
+
+
+FOR SERVER
+==================================
+cd server
+npm init -f //force, it will create pacakge.json
+npm install --save nodemon eslint
+mkdir src
+vim app.js
+node ./node_modules/jslint/bin/eslint.js --init
+
