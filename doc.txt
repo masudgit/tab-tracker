@@ -24,3 +24,4 @@ mkdir src
 vim app.js
 node ./node_modules/jslint/bin/eslint.js --init
 npm install --save express body-parser cors morgan
+npm istall --save axios //for http request; cors(to allow any host)
