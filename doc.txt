@@ -15,7 +15,6 @@ npm run dev
 cd ..
 
 
-
 FOR SERVER
 ==================================
 cd server
@@ -24,4 +23,4 @@ npm install --save nodemon eslint
 mkdir src
 vim app.js
 node ./node_modules/jslint/bin/eslint.js --init
-
+npm install --save express body-parser cors morgan
